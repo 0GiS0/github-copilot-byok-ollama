@@ -1,0 +1,5 @@
+{
+	"name": "🚀 Ollama 🦙 - Your GitHub Copilot Chat Model 🤖",	
+	"dockerFile": "Dockerfile",
+	"postStartCommand": "socat tcp-listen:11434,fork,reuseaddr tcp-connect:host.docker.internal:11434"
+}
